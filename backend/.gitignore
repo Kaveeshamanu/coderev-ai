@@ -1,0 +1,14 @@
+# Dataset and generated artefacts — too large for git
+data/raw/
+data/corpus/
+data/tokenizer/
+data/splits/
+
+# Trained model weights
+models/weights/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env

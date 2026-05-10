@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+dist/
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# Model weights (large binary files)
+backend/models/weights/*.pt
+
+# TensorBoard logs
+backend/runs/
+
+# Environment variables
+.env
+backend/.env
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
